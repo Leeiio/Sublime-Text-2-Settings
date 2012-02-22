@@ -32,6 +32,12 @@ Backup your settings and use my Sublime Text 2 settings
 
     mv Sublime-Text-2-Settings/ Sublime\ Text\ 2/
 
+### Download Manually
+
+- Download the files using the GitHub .zip download option
+- Unzip the files and rename the folder to `Sublime Text 2`
+- Copy the folder to your OS X Applicatioin Support directory `~/Library/Application Support/`
+
 
 ## Packages Used
 
@@ -42,12 +48,30 @@ Read [Package Control][] page for details about how to install it.The packages s
 #### Theme
 
 - [Soda](https://github.com/buymeasoda/soda-theme)
+
+#### Color Scheme
+
 - [Textmate-solarized](http://ethanschoonover.com/solarized)
-- [TextMate-Tomorrow-Theme](https://github.com/chriskempson/TextMate-Tomorrow-Theme)
 
 #### CSS
 
 - [SCSS](https://github.com/kuroir/SCSS.tmbundle)
+
+### Installed Manually
+
+#### Color Scheme
+
+- [TextMate-Tomorrow-Theme](https://github.com/chriskempson/TextMate-Tomorrow-Theme)
+- [Coda-TextMate-Theme](https://github.com/chriskempson/Coda-TextMate-Theme)
+- [Espresso Soda & Monokai Soda](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
+
+
+## Bonus Options
+
+#### Code Font
+
+- [Menlo](http://en.wikipedia.org/wiki/Menlo_%28typeface%29) - OS X system default font
+- [Meslo](https://github.com/andreberg/Meslo-Font) - Which is a modified version of Menlo.
 
 
 [Package Control]:  http://wbond.net/sublime_packages/package_control "Extension management to ST2"
