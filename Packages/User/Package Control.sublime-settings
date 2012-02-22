@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": 1329880215,
 	"installed_packages":
 	[
+		"Alignment",
 		"Package Control",
 		"SCSS",
 		"textmate-solarized",
