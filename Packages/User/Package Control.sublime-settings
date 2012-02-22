@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Package Control",
+		"SCSS",
 		"textmate-solarized"
 	],
 	"repositories":

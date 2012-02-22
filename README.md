@@ -12,9 +12,6 @@ It's probably better to make copy of these to another location and just copy the
 ## Requirements:
 
 - [Sublime Text 2 (Beta)](http://www.sublimetext.com/2/) or [Sublime Text 2 (Dev)](http://www.sublimetext.com/dev/), i use the dev version.
-- [Package Control](http://wbond.net/sublime_packages/package_control "Extension management to ST2")
-
-Read [Package Control][] page for details about how to install it and other possible extensions via the system.
 
 
 ## Installation
@@ -34,6 +31,21 @@ Backup your settings and use my Sublime Text 2 settings
 	mv Sublime\ Text\ 2/ Sublime\ Text\ 2\ Backup/
 
     mv Sublime-Text-2-Settings/ Sublime\ Text\ 2/
+
+
+## Packages Used
+
+### Installed via [Package Control][]
+
+Read [Package Control][] page for details about how to install it.The packages show below are installed by Package Control.
+
+#### Theme
+
+- [Textmate-solarized](http://ethanschoonover.com/solarized)
+
+#### CSS
+
+- [SCSS](https://github.com/kuroir/SCSS.tmbundle)
 
 
 [Package Control]:  http://wbond.net/sublime_packages/package_control "Extension management to ST2"
