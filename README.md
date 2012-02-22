@@ -41,7 +41,9 @@ Read [Package Control][] page for details about how to install it.The packages s
 
 #### Theme
 
+- [Soda](https://github.com/buymeasoda/soda-theme)
 - [Textmate-solarized](http://ethanschoonover.com/solarized)
+- [TextMate-Tomorrow-Theme](https://github.com/chriskempson/TextMate-Tomorrow-Theme)
 
 #### CSS
 
