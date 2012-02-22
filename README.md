@@ -1,6 +1,6 @@
 # My Sublime Text 2 Settings
 
-What the shit? Hmmmm, This repository contains the contents of my Sublime Text 2 settings for myself.I use an OS X Lion for my work, so the settings folder is in **~/Library/Application Support/Sublime Text 2**.
+What the shit? Hmmmm, This repository contains the contents of my Sublime Text 2 settings for myself.I use an OS X Lion for my work, so the settings folder is in `~/Library/Application Support/Sublime Text 2`.
 
 ## WARNING!
 
