@@ -100,7 +100,7 @@
 
     { "caption": "File: Save All", "command": "save_all" },
     { "caption": "File: Revert", "command": "revert" },
-    { "caption": "File: Clone", "command": "clone_file" },
+    { "caption": "File: New View into File", "command": "clone_file" },
     { "caption": "File: Close All", "command": "close_all" },
 
     { "caption": "HTML: Wrap Selection With Tag", "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },

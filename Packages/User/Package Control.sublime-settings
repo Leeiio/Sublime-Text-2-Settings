@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": 1329880215,
 	"installed_packages":
 	[
+		"Package Control",
 		"textmate-solarized"
 	],
 	"repositories":

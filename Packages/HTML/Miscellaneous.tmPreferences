@@ -26,7 +26,7 @@
         |&lt;\?php.+?\b(if|else(?:if)?|for(?:each)?|while)\b.*:(?!.*end\1)
         |\{[^}"']*$
         </string>
-        <key>indentNextLinePattern</key>
+        <key>bracketIndentNextLinePattern</key>
         <string>&lt;!DOCTYPE(?!.*&gt;)</string>
     </dict>
 </dict>

@@ -21,7 +21,7 @@
 	|   ^ \s* @(public|private|protected) \s* $
 	</string>
 
-		<key>indentNextLinePattern</key>
+		<key>bracketIndentNextLinePattern</key>
 		<string>(?x)
 		^ \s* \b(if|while|else)\b [^;]* $
 		| ^ \s* \b(for)\b .* $
@@ -29,8 +29,10 @@
 
 		<key>unIndentedLinePattern</key>
 		<string>^\s*((/\*|.*\*/|//|#|template\b.*?&gt;(?!\(.*\))|@protocol|@interface(?!.*\{)|@implementation|@end).*)?$</string>
-		<key>disableIndentNextLinePattern</key>
-		<string>^\s*\{\}?\s*$</string>
+
+		<key>indentSquareBrackets</key>
+		<true/>
+
 	</dict>
 	<key>uuid</key>
 	<string>02EB44C6-9203-4F4C-BFCB-7E3360B12812</string>

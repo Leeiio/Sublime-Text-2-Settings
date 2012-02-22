@@ -13,13 +13,11 @@
 		<key>increaseIndentPattern</key>
 		<string>^.*\{[^}"']*$|^\s*(public|private|protected):\s*$</string>
 
-		<key>indentNextLinePattern</key>
+		<key>bracketIndentNextLinePattern</key>
 		<string>(?x)
 		^ \s* \b(if|while|else|foreach)\b [^;]* $
 		| ^ \s* \b(for)\b .* $
 		</string>
-		<key>disableIndentNextLinePattern</key>
-		<string>^\s*\{\}?\s*$</string>
 
 	</dict>
 	<key>uuid</key>
