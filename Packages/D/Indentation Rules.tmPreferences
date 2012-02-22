@@ -12,8 +12,15 @@
 		<string>^(.*\*/)?\s*\}([^}{"']*\{)?[;\s]*(//.*|/\*.*\*/\s*)?$|^\s*(public|private|protected):\s*$</string>
 		<key>increaseIndentPattern</key>
 		<string>^.*\{[^}"']*$|^\s*(public|private|protected):\s*$</string>
+
 		<key>indentNextLinePattern</key>
-		<string>^(?!(.*[};:])?\s*(//|/\*.*\*/\s*$)).*[^\s;:{}]\s*$</string>
+		<string>(?x)
+		^ \s* \b(if|while|else|foreach)\b [^;]* $
+		| ^ \s* \b(for)\b .* $
+		</string>
+		<key>disableIndentNextLinePattern</key>
+		<string>^\s*\{\}?\s*$</string>
+
 	</dict>
 	<key>uuid</key>
 	<string>7C8F9C84-7DCC-4DD7-B32E-A638F322199F</string>
