@@ -1,3 +1,11 @@
 {
-	"auto_upgrade_last_run": 1329880215
+	"auto_upgrade_last_run": 1329880215,
+	"installed_packages":
+	[
+		"textmate-solarized"
+	],
+	"repositories":
+	[
+		"https://github.com/deplorableword/textmate-solarized"
+	]
 }
