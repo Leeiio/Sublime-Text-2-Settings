@@ -1,10 +1,11 @@
 {
-	"auto_upgrade_last_run": 1329880215,
+	"auto_upgrade_last_run": 1329893278,
 	"installed_packages":
 	[
 		"Alignment",
 		"Package Control",
 		"SCSS",
+		"SublimeLinter",
 		"textmate-solarized",
 		"Theme - Soda"
 	],

@@ -45,6 +45,14 @@ Backup your settings and use my Sublime Text 2 settings
 
 Read [Package Control][] page for details about how to install it.The packages show below are installed by Package Control.
 
+#### General tools
+
+- [Alignment](http://wbond.net/sublime_packages/alignment)
+
+#### Code intelligence
+
+- [SublimeLinter](https://github.com/Kronuz/SublimeLinter)
+
 #### Theme
 
 - [Soda](https://github.com/buymeasoda/soda-theme)
