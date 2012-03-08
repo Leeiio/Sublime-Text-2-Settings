@@ -364,7 +364,7 @@
 		"context": [{"key": "setting.command_mode"}]
 	},
 
-	{ "keys": ["="], "command": "set_action", "args": {"action": "reindent", "description": "Reindent"},
+	{ "keys": ["="], "command": "set_action", "args": {"action": "reindent", "description": "Reindent", "action_args": {"force_indent": false}},
 		"context": [{"key": "setting.command_mode"}]
 	},
 
@@ -678,8 +678,9 @@
 	// Motions to allow double press to mean entire line
 
 	{ "keys": ["c"], "command": "set_motion", "args": {
-		"motion": "vi_dont_move",
-		"linewise": true},
+		"motion": "vi_span_count_lines",
+		"linewise": true,
+		"motion_args": {"repeat": 1}},
 		"context":
 		[
 			{"key": "setting.command_mode"},
@@ -778,8 +779,9 @@
 	{ "keys": ["S"], "command": "set_action_motion", "args": {
 		"action": "enter_insert_mode",
 		"action_args": {"insert_command": "vi_delete"},
-		"motion": "vi_dont_move",
-		"motion_linewise": true},
+		"motion": "vi_span_count_lines",
+		"motion_linewise": true,
+		"motion_args": {"repeat": 1}},
 		"context": [{"key": "setting.command_mode"}]
 	},
 
@@ -920,7 +922,11 @@
 		"motion_args": {"character": "{", "outer": true}},
 		"context": [{"key": "setting.command_mode"}, {"key": "vi_can_enter_text_object"}]
 	},
-
+	{ "keys": ["a", "p"], "command": "set_motion", "args": {
+		"motion": "expand_selection_to_paragraph"},
+		"context": [{"key": "setting.command_mode"}, {"key": "vi_can_enter_text_object"}]
+	},
+	
 	//
 	// Repeat digits
 	//

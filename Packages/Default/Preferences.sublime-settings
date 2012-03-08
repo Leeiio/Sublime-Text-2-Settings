@@ -234,6 +234,10 @@
     // you'll need to place this line in your user settings to override it.
     "find_selected_text": true,
 
+    // When drag_text is enabled, clicking on selected text will begin a
+    // drag-drop operation
+    "drag_text": true,
+
     //
     // User Interface Settings
     //
