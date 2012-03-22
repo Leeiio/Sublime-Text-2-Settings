@@ -15,7 +15,7 @@
     "font_size": 10,
 
     // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
-    // "subpixel_antialias" and "no_round" (OS X only)
+    // "subpixel_antialias", "no_round" (OS X only) and "directwrite" (Windows only)
     "font_options": [],
 
     // Characters that are considered to separate words
@@ -251,6 +251,9 @@
 
     // Controls side bar animation when expanding or collapsing folders
     "tree_animation_enabled": true,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": false,
 
     "show_tab_close_buttons": true,
 

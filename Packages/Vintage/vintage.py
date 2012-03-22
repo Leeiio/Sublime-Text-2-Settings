@@ -612,7 +612,9 @@ class ViEval(sublime_plugin.TextCommand):
                     # cursor should be left on an empty line. Leave the trailing
                     # newline out of the selection to allow for this.
                     transform_selection_regions(self.view,
-                        lambda r: sublime.Region(r.begin(), r.end() - 1))
+                        lambda r: (sublime.Region(r.begin(), r.end() - 1)
+                                   if not r.empty() and self.view.substr(r.end() - 1) == "\n"
+                                   else r))
                     reindent = True
 
             if action_command:
@@ -729,9 +731,10 @@ class Sequence(sublime_plugin.TextCommand):
 
 class ViDelete(sublime_plugin.TextCommand):
     def run(self, edit, register = '"'):
-        set_register(self.view, register, forward=False)
-        set_register(self.view, '1', forward=False)
-        self.view.run_command('left_delete')
+        if self.view.has_non_empty_selection_region():
+            set_register(self.view, register, forward=False)
+            set_register(self.view, '1', forward=False)
+            self.view.run_command('left_delete')
 
 class ViLeftDelete(sublime_plugin.TextCommand):
     def run(self, edit, register = '"'):
@@ -864,8 +867,7 @@ class PasteFromRegisterCommand(sublime_plugin.TextCommand):
             sublime.status_message("Undefined register" + register)
             return
 
-        if self.view.has_non_empty_selection_region():
-            self.view.run_command('vi_delete')
+        self.view.run_command('vi_delete')
 
         regions = [r for r in self.view.sel()]
         new_sel = []
