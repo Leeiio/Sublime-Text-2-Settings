@@ -2,5 +2,6 @@
 	"color_scheme": "Packages/textmate-solarized/Solarized (light).tmTheme",
 	"font_face": "Meslo LG S",
 	"font_size": 16.0,
-	"theme": "Soda Light.sublime-theme"
+	"theme": "Soda Light.sublime-theme",
+	"word_wrap": true
 }
