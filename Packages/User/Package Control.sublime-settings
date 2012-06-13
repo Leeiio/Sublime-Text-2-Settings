@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"LESS",
 		"Package Control",
 		"SCSS",
 		"SublimeLinter",

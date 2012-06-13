@@ -64,6 +64,7 @@ Read [Package Control][] page for details about how to install it.The packages s
 #### CSS
 
 - [SCSS](https://github.com/kuroir/SCSS.tmbundle)
+- [LESS](https://github.com/danro/LESS-sublime)
 
 ### Installed Manually
 
